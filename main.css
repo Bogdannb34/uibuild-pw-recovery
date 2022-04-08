@@ -7,7 +7,8 @@
 }
 
 body {
-    min-height: 100vh;
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,10 +65,24 @@ body {
     border: none;
     border-radius: 50%;
     background-color: #F9C582;
-    color: #467745;
-    font-size: 1.6rem;
+    color: #006837;
+    font-size: 1.3rem;
+    font-weight: 700;
     align-self: flex-end;
     margin-right: 2rem;
     position: absolute;
     bottom: 1rem;
+}
+
+@media (max-width:520px) {
+    .title {
+        font-size: 1.5rem;
+    }
+    .content {
+        max-width: 100%;
+    }
+
+    #pet {
+        max-width: calc(100% - 40px);
+    }
 }
