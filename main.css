@@ -7,7 +7,7 @@
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,4 +56,18 @@ body {
     color: #98A991;
     padding: 2rem;
     border: none;
+}
+
+.btn {
+    width: 6rem;
+    height: 6rem;
+    border: none;
+    border-radius: 50%;
+    background-color: #F9C582;
+    color: #467745;
+    font-size: 1.6rem;
+    align-self: flex-end;
+    margin-right: 2rem;
+    position: absolute;
+    bottom: 1rem;
 }
